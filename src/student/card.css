@@ -1,0 +1,5 @@
+.custom-thead th {
+    background-color: black;
+    color: white; /* Set text color for contrast */
+  }
+

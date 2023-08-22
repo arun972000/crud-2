@@ -1,0 +1,80 @@
+.sidebar {
+    background-color: #4e73df;
+    min-height: 100vh;
+    transition: 0.1s;
+    width:14rem;
+    
+     /* Hide the sidebar when it is collapsed */
+  }
+  
+  .sidebar.show {
+    width:0px;
+    overflow: hidden;/* Show the sidebar when it is expanded */
+  }
+
+.sidebar .nav-item .nav-link{
+    color: white;
+}
+
+.b1{
+    font-weight: 400 !important;
+}
+
+.accordion-header{
+    background-color: #4e73df;
+    color:white;
+}
+
+.accordion-button:focus {
+    background-color: #4e73df;
+    color:white;
+}
+
+/* Add an example icon to the button using the ::after pseudo-element */
+.rotate-icon {
+    transform: rotate(90deg); /* Adjust the rotation angle as needed */
+  }
+
+.accordion-button:not(.collapsed){
+    background-color: #4e73df;
+    color:white;
+    box-shadow: none;
+}
+
+hr{
+    color: aliceblue;
+    width:80%;
+    align-self: center;
+}
+
+.accordion-button{
+    background-color: #4e73df;
+    color:white;
+}
+
+.accordion-item{
+    border: none;
+    outline:none;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+
+
+ 
+
+
+   @media only screen and (max-width:768px){
+   
+    @media (max-width: 768px) {
+        .fa-icon {
+          font-size: 16px; /* Reduce the size as per your requirement */
+        }
+      }
+    .tab {
+      font-size: 0.6rem;
+      
+    }
+  }

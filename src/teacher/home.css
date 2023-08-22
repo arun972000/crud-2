@@ -1,0 +1,14 @@
+.card{
+    position:relative
+}
+
+
+.profile-icon {
+    position:absolute;
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    right:1% ;
+    top: 10%
+    /* Push the icon to the right side */
+}
+
